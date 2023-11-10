@@ -142,8 +142,7 @@ class SLAM:
         if self.animation == True:
             ani = FuncAnimation(self.fig, self.animate, frames=2000, interval=100, repeat=False)
             plt.gcf().canvas.mpl_connect('key_release_event', lambda event: [exit(0) if event.key == 'escape' else None])
-            ani.save("Animations/Task4.gif")
-            #plt.show()
+            plt.show()
 
 def main():
     initial_pose = np.array([0.0000000e+00, 0.0000000e+00, 0.0000000e+00])
