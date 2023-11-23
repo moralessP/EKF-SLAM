@@ -1,6 +1,6 @@
 ## EKF-SLAM  
 
 ## Requirements 
-numpy library
-matplotlib library
-pyhton3
+- numpy library 
+- matplotlib library
+- pyhton3
